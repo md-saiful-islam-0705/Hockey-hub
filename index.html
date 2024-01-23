@@ -22,10 +22,10 @@
     </style>
 
 </head>
-<body>
-    <header class="font-manrope container mx-auto">
+<body class="font-manrope ">
+    <header class=" container mx-auto ">
         <!-- navbar -->
-        <div class="navbar bg-base-100">
+        <div class="navbar bg-base-100 my-5 ">
             <div class="navbar-start">
               <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -57,7 +57,8 @@
             </div>
           </div>
         <!-- Banner   -->
-        <div class=" container carousel lg:w-full mx-auto my-5   ">
+        <!-- lg:w-full  my-5 mx-auto -->
+        <div class=" container carousel mb-5 ">
             <div id="slide1" class="carousel-item relative w-full ">
               <img src="assets/Images/1.png" class="w-full rounded-2xl " />
               <div class="absolute  flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -281,7 +282,7 @@
         <!-- Clients Questions -->
         <section class="mx-5">
             <div class="text-center mx-5 my-20 items-center border-dashed border-y-2 border-slate-200">
-                <h2 class="text-4xl my-3 font-extrabold">Clients Question</h2>
+                <h2 class="text-4xl my-5 font-extrabold">Clients Question</h2>
                 <p class="text-slate-500 my-3">Let's explore the exciting realm of modern hockey together. What specific aspects or equipment are you interested in?</p>
             </div>
 
@@ -290,7 +291,7 @@
                     <img src="assets/Images/11.png" alt="">
                 </div>
                 <div class="lg:w-9/12 ">
-                     <div class=" my-1 collapse collapse-plus border-solid border-y-2 border-slate-200">
+                     <div class=" my-1 collapse collapse-plus border-solid border-y-2 border-slate-200 ">
                         <input type="radio" name="my-accordion-3" checked="checked" /> 
                         <div class="collapse-title text-xl font-bold">
                             Our Equipment
@@ -305,7 +306,7 @@
                             Hockey Training
                         </div>
                         <div class="collapse-content"> 
-                          <p>hello</p>
+                          <p>Your game with our comprehensive hockey training programs, tailored for players of all skill levels</p>
                         </div>
                       </div>
                       <div class=" my-1 collapse collapse-plus border-solid border-y-2 border-slate-200">
@@ -314,7 +315,7 @@
                             Private Lessons
                         </div>
                         <div class="collapse-content"> 
-                          <p>hello</p>
+                          <p>Personalized excellence with our private hockey lessons</p>
                         </div>
                       </div>
                       <div class="my-1 collapse collapse-plus border-solid border-y-2 border-slate-200">
@@ -323,16 +324,16 @@
                             Ski Touring
                         </div>
                         <div class="collapse-content"> 
-                          <p>hello</p>
+                          <p>Conquer snow-covered peaks, and immerse yourself in the serenity of backcountry skiing.</p>
                         </div>
                       </div>
                       <div class="my-1 collapse collapse-plus border-solid border-y-2 border-slate-200">
                         <input type="radio" name="my-accordion-3" /> 
                         <div class="collapse-title text-xl font-bold">
-                            Ski Touring
+                            Touring
                         </div>
                         <div class="collapse-content"> 
-                          <p>hello</p>
+                          <p>On a thrilling adventure with our ski touring experiences. Explore pristine winter landscapes</p>
                         </div>
                       </div>
                       <div class=" my-1 collapse collapse-plus border-solid border-y-2 border-slate-200">
@@ -341,7 +342,7 @@
                             Pricings
                         </div>
                         <div class="collapse-content"> 
-                          <p>hello</p>
+                          <p>Discover our flexible and competitive pricings designed to cater to your specific needs</p>
                         </div>
                       </div>
                 </div>
@@ -350,7 +351,7 @@
         <!-- Get In Touch -->
         <section>
             <div class="text-center mx-5 my-20 items-center border-dashed border-y-2 border-slate-200">
-                <h2 class="text-4xl my-3 font-extrabold">Get In Touch</h2>
+                <h2 class="text-4xl my-5 font-extrabold">Get In Touch</h2>
                 <p class="text-slate-500 my-3">Ready to elevate your hockey experience? Get in touch with us! Whether you have questions, need assistance, or want to explore our programs, we're here to help. Reach out and let's make your hockey journey extraordinary</p>
             </div>
            <div class="lg:flex flex:row justify-between items-center gap-10">
@@ -405,11 +406,8 @@
                       <div class="col-span-full ">
                         <label for="first-name" class="block text-sm font-bold leading-6 text-gray-900">Massage</label>
                         <div class="mt-2">
-                          <textarea type="text" name="first-name" placeholder="Write your massage..."  id="first-name" autocomplete="given-name" rows="5" class=" p-5 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
-                          
-                        </div>
-                        <div class="">
-                            <button  class="btn my-5  text-white border-none bg-[#FF4240]">Register Now!</button>
+                          <textarea type="text" name="first-name" placeholder="Write your massage..."  id="first-name" autocomplete="given-name" rows="10" class=" p-5 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea> 
+                          <button  class=" w-full btn my-5  text-white border-none bg-[#FF4240] capitalize">Send Massage</button>
                         </div>
                         </div>
                       </div> 
@@ -419,7 +417,7 @@
            </div> 
             <!-- Social Media -->
            <div class=" text-center p-10 mx-5 bg-zinc-100 rounded-xl my-20">
-            <h1 class="font-extrabold">Social Media</h1>
+            <h1 class="text-3xl font-bold my-5">Social Media</h1>
            <div>
            <i class="mx-2 fa-brands fa-twitter"></i>
            <i class="mx-2 fa-brands fa-facebook"></i>
@@ -449,15 +447,15 @@
                     <p class="text-slate-500 text-lg mt-1">News & Article</p>
                     <p class="text-slate-500 text-lg mt-1">Legal Notice</p>
                 </div>
-                <div class="mx-5">
-                    <h1 class="font-bold text-xl text-center lg:text-left">Support</h1>
+                <div class="mx-5 text-center lg:text-left">
+                    <h1 class="font-bold text-xl ">Support</h1>
                     <p class="text-slate-500 text-lg mt-1"> Help Center</p>
                     <p class="text-slate-500 text-lg mt-1">FAQ</p>
                     <p class="text-slate-500 text-lg mt-1">Ticket Support</p>
                     <p class="text-slate-500 text-lg mt-1">Contact Us</p>
                 </div>
             </div>
-            <div class="mx-5 text-center lg:text-left my-5">
+            <div class="mx-5 text-center lg:text-left ">
                 <h1 class="font-bold text-xl ">Services</h1>
                 <p class="text-slate-500 text-lg mt-1"> Academy</p>
                 <p class="text-slate-500 text-lg mt-1">Group Lesson</p>
